@@ -1,9 +1,6 @@
 import React from 'react'
-import PropTypes from 'prop-types'
-import nanoid from 'nanoid'
 
-
-const ColorConverter = (props) => {
+const ColorConverter = () => {
 
     const [form, setForm] = React.useState({
         background: '#ffffff'
@@ -75,7 +72,5 @@ const ColorConverter = (props) => {
     </div>
   )
 }
-
-ColorConverter.propTypes = {}
 
 export default ColorConverter
